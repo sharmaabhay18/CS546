@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "Lab6 assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhay Sharma 10459806",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4"
+  }
+}

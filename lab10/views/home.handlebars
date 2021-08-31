@@ -1,0 +1,18 @@
+{{#section 'head'}}
+<title>Login</title>
+{{/section}}
+<header>
+    <h1 class="headerStyle">Login</h1>
+</header>
+<main id="homeContainer">
+    {{#if error}}
+    <p class="loginError">{{error}}</p>
+    {{/if}}
+    <form class="formContainer" method="POST" action="/login" id="login-form">
+        <label for="username"> Enter Username</label>
+        <input required type="text" class="formStyle" id="username" name="username">
+        <label for="password"> Enter Password</label>
+        <input required type="password" class="formStyle" id="password" name="password">
+        <button class="homeButton" type="submit" form="login-form" value="Submit">Submit</button>
+    </form>
+</main>

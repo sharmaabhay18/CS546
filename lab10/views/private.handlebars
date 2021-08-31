@@ -1,0 +1,31 @@
+{{#section 'head'}}
+<title>{{user.firstName}} Information</title>
+{{/section}}
+<header>
+    <h1 class="headerStyle">{{user.firstName}} Information</h1>
+</header>
+<main id="homeContainer">
+    <div class="infoContainer">
+        <div class="infoStyle">
+            <h2>FirstName:</h2>
+            <h5>{{user.firstName}}</h5>
+        </div>
+        <div class="infoStyle">
+            <h2>LastName:</h2>
+            <h5>{{user.lastName}}</h5>
+        </div>
+        <div class="infoStyle">
+            <h2>Username:</h2>
+            <h5>{{user.username}}</h5>
+        </div>
+        <div class="infoStyle">
+            <h2>Profession:</h2>
+            <h5>{{user.profession}}</h5>
+        </div>
+        <div class="infoStyle">
+            <h2>Bio:</h2>
+            <h5>{{user.bio}}</h5>
+        </div>
+        <a href='/logout'>Logout</a>
+    </div>
+</main>

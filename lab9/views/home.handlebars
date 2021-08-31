@@ -1,0 +1,19 @@
+{{#section 'head'}}
+<title>Fibonacci Calculator</title>
+{{/section}}
+<header>
+    <h1 class="headerStyle">Fibonacci Calculator</h1>
+</header>
+<main id="homeContainer">
+    <form class="formContainer" onsubmit="calculateFibonacci" id="fibonacciForm">
+        <label for="fibonacci"> Enter value to calculate fibonacci value</label>
+        <input required type="number" class="formStyle" id="fibonacci" name="fibonacciValue">
+        <button class="homeButton" type="submit" form="fibonacciForm" value="Submit">Submit</button>
+    </form>
+    <p class="errorStyle" id="error"></p>
+    <ul id="results">
+    </ul>
+</main>
+<footer class="footerStyle">
+    <h2 class="footerHeaderStyle">Abhay Sharma - 10459806</h2>
+</footer>
